@@ -1,0 +1,153 @@
+body{
+    background-image: url(../tareaagus8/galaxia.jpg);
+    background-size: contain;
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto{
+    background-color: rgba(255, 255, 255, 0.493);
+    border-radius: 15px;
+    margin:15px;
+    display: flex; justify-content: center;align-items: center;
+    text-shadow: rgb(255, 0, 0) 1px 1px 1px;   
+}
+
+.imagen1{
+    background-image: url(../tareaagus8/descarga.jpg);
+    height: 600px;
+    width: 600px;
+    margin: 20px;
+}
+
+.imagen2{
+    background-image: url(../tareaagus8/EP4_KEY_202_R--644x362.jpg);
+    height: 600px;
+    width: 600px;
+    margin: 20px;
+}
+
+.imagen3{
+    background-image: url(../tareaagus8/Fondos-de-pantalla-hd-The-Last-Jedi-6.jpg);
+    height: 600px;
+    width: 600px;   
+    margin: 20px;
+}
+
+.imagen4{
+    background-image: url(../tareaagus8/images.jpg);  
+    height: 400px;
+    width: 600px;  
+    margin: 20px;
+    margin-top: -160px;
+}
+
+.imagen5{
+    background-image: url(../tareaagus8/maxresdefault.jpg); 
+    height: 400px;
+    width: 600px;   
+    margin: 20px;
+}
+
+.imagen6{
+    background-image: url(../tareaagus8/newproject22-04224ebf31c91c63692c7edcb8a6fa1a-600x400.jpg);
+    height: 400px;
+    width: 600px;  
+    margin: 20px;  
+}
+
+.imagen7{
+    background-image: url(../tareaagus8/star-wars-star-wars-jedi-fallen-order-second-sister-star-wars-hd-wallpaper-preview.jpg);
+    height: 400px;
+    width: 600px;  
+    margin: 20px;
+}
+
+.cajaGRANDE{
+    display: flex;justify-content: center;align-items: center;
+}
+
+header{
+    display: flex; justify-content: space-around;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.493);
+    border-radius: 15px;
+    margin: 15px;
+}
+
+div.imagen1:hover div.info1{
+    opacity: 1;
+}
+
+div.imagen2:hover div.info1{
+    opacity: 1;
+}
+
+div.imagen3:hover div.info1{
+    opacity: 1;
+}
+
+div.imagen4:hover div.info2{
+    opacity: 1;
+}
+
+div.imagen5:hover div.info2{
+    opacity: 1;
+}
+
+div.imagen6:hover div.info2{
+    opacity: 1;
+}
+
+div.imagen7:hover div.info2{
+    opacity: 1;
+}
+
+.info1{
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    background-color: rgba(252, 67, 0, 0.479);
+    -webkit-transition: opacity 0.2s;
+    opacity: 0;
+    display: flex; justify-content: center; align-items: center;
+    font-size: 35px;
+    color: white;
+    text-shadow: black 1px 3px 1px;
+}
+
+.info2{
+    position: absolute;
+    height: 400px;
+    width: 600px;  
+    background-color: rgba(252, 67, 0, 0.479);
+    -webkit-transition: opacity 0.2s;
+    opacity: 0;
+    display: flex; justify-content: center; align-items: center;
+    font-size: 35px;
+    color: white;
+    text-shadow: black 1px 3px 1px;
+}
+
+
+footer{
+    display: flex;justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.493);
+    border-radius: 15px;
+    margin:15px;
+    padding: 20px;
+    text-shadow: rgb(255, 0, 0) 1px 1px 1px;   
+}
+
+.iconos{
+    display: flex;justify-content: center; align-items: center;
+    size: 30px;
+}
+
+.iconito{
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;justify-content: center; align-items: center;
+}
